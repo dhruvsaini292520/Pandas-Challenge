@@ -1,0 +1,25 @@
+Summary of Analysis
+
+The first part of the code merges the two tables shown into one dataframe. From here, we proceed to divide this data into several parts.
+
+District Summary: This section provides basic information about the entire dataset, including the total number of schools, total number of students, total budget, average math score, average reading score, and the percentage of students passing math, reading, and both, to derive the overall passing percentage. This offers an overview of the data across all schools and students.
+
+School Summary: In this part, we sort the data based on individual schools to obtain the same information for each school. It includes details like school type, total students per school, and per student budget for each school.
+
+Highest and Lowest Performing Schools: Determined by identifying the top 5 and bottom 5 schools based on the overall passing percentage.
+
+Math and Reading Scores by Grade: Here, the data is divided by grade for each school, providing the average math and reading scores for each grade across all schools. Two tables are created, one for math scores and one for reading scores.
+
+Scores by Spending Per Student: The data is divided into bins based on per student budget, allowing us to analyze performance relative to school budget per student.
+
+Scores by School Size and Type: Similar to the previous section, here we divide the data into different categories based on school size and type, providing insights into how these factors correlate with academic performance.
+
+These analyses help in understanding the educational landscape, identifying areas of improvement, and informing decision-making processes for stakeholders in the education system.
+
+Conclusions:
+
+The analysis reveals a clear trend when examining the highest and lowest performing schools based on overall passing percentage. The top 5 schools are all charter schools, while the bottom 5 schools are all district schools. This stark contrast indicates that charter schools consistently achieve higher passing percentages compared to district schools. This observation is further supported by the comparison of average scores and passing percentages between district and charter schools. Charter schools consistently outperform district schools across all categories, with charter schools boasting an impressive overall passing percentage of around 90%, while district schools lag behind at approximately 53%.
+
+Another noteworthy insight arises when the data is segmented by school size and spending budgets per student. Analysis of the spending tables reveals a significant decrease in the percentage of students passing math, reading, and overall, as the per student spending increases. Similarly, when examining passing percentages based on school size, it becomes evident that medium and small schools significantly outperform large schools, with medium-sized schools showing a slight advantage.
+
+Considering both of these conclusions, it can be inferred that the ideal performing school would likely be a charter school with a per student budget of less than $585 and an enrollment of between 1000 to 2000 students.
